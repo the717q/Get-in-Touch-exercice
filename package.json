@@ -1,0 +1,14 @@
+{
+  "name": "get-in-touch-exercice",
+  "version": "1.0.0",
+  "description": "Get in touch exercice",
+  "main": "index.js",
+  "scripts": {
+    "scss": "sass --watch styles/index.scss styles/index.css"
+  },
+  "author": "Andre Silveira",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.53.0"
+  }
+}

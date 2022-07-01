@@ -1,0 +1,100 @@
+body {
+    display: block;
+    margin: 0px;
+    height: 100vh;
+}
+
+main {   
+    background-image: url(../assets/background-image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+    height: 100%;
+    flex-direction: column;
+    .main-label {
+        width: 30%;
+        height: 30%;
+        background-image: url(../assets/divimg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+     }
+     .main-label2 {
+        width: 30%;
+        background-color: white;
+        text-align: left;
+        .inside-mainlabel2-1 {
+            align-self: end;
+            h1, p {
+                margin-left: 10px;
+                margin-right: 20px;
+                text-align: left;
+            }
+            h1 {
+                font-family: 'Cormorant Garamond', serif;
+            }
+            p {
+                font-family: 'Manrope', sans-serif;
+            }
+            a {
+                border: 1px solid black;
+                display: block;
+                text-align: center;
+                margin: 10% 6% 6% 6%;
+                padding: 5% 10%;
+                text-decoration: none;
+                color: white;
+                background-color: black;
+                font-size: 16px;
+                transition: color 300ms linear, background-color 300ms linear;
+                    &:hover {
+                    color: black;
+                    background-color: white;
+                    font-weight: 700;
+                    }
+                }           
+            }
+        .inside-mainlabel2-2 {
+            text-align:center;
+            margin-top: 5%;
+            padding: 5%;
+            .footerimg {
+                width: 10%;
+            }
+        }
+     }
+ }
+
+ @media only screen and (max-width: 768px) and (min-width: 426px) {
+    .main-label2 {
+        width: 40%;
+     }
+
+     .main-label {
+        width: 40%;
+     }  
+ }
+
+ @media only screen and (max-width: 426px) {
+    .main-label2 {
+        width: 80%;
+     }
+
+     .main-label {
+        width: 80%;
+     }  
+
+  }
+
+  @media only screen and (min-width: 1680px) {
+    .main-label2 {
+        font-size: 24px;
+     }
+
+
+  }
+
+  
